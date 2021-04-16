@@ -13,11 +13,10 @@ namespace NUnitTDD
             return num1 + num2;
         }
 
-        // Purposeful failure
         public int Multiply(int num1, int num2)
         {
-            // return num1 * num2;
-            return num1 + num2;
+            // Purposeful failure: return num1 + num2;
+            return num1 * num2;
         }
     }
 }
